@@ -1,0 +1,34 @@
+.contenedor {
+    width: 250px;
+    display: block;
+    background: rgb(0, 141, 146);
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    word-wrap: break-word;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+
+.inline{
+    display: inline-block;
+}
+
+.check {
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    width: 35px;
+    background-color: #eee;
+}
+
+@media only screen and (max-width: 592px) {
+    .inline{ 
+        display: flex;
+        justify-content: center;
+    }
+
+    .contenedor {
+        width: 90%;
+    }
+}

@@ -1,0 +1,55 @@
+.form{
+    padding: 10px;
+    display: block;
+    background: #ddd;
+    text-align: center;
+} 
+
+.txt {
+    font-family: sans-serif;
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    height: 30px;
+    outline: none;
+    width: 500px;
+}
+
+.txtArea{
+    font-family: sans-serif;
+    display: block;
+    margin: 10px auto;
+    font-size: 20px;
+    outline: none;
+    width: 500px;
+    height: 75px;
+}
+
+.btn {
+    background: rgb(0, 90, 92);
+    color: #fff;
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    background: rgb(0, 141, 146);
+}
+
+@media only screen and (max-width: 592px) {
+  .txt {
+        width: 400px;
+    }
+
+    .txtArea{
+        width: 400px;
+    }
+
+    .btn {
+        width: 400px;
+    }
+}
